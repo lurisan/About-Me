@@ -11,8 +11,10 @@
 
 .picture-theme {
   background-image: url("src/assets/pics/home.jpg");
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-attachment: fixed;
+  background-position: top center;
   color: #ffffff;
 }
