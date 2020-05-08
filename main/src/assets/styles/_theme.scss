@@ -1,0 +1,20 @@
+// themes
+.reply-theme {
+  background: linear-gradient(135deg, red, orange, yellow);
+  color: #ffffff;
+}
+
+.orange-theme {
+  background: linear-gradient(135deg, #4a6572, #232f34);
+  color: #f9aa33;
+}
+
+.picture-theme {
+  background-image: url("src/assets/pics/home.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  color: #ffffff;
+}

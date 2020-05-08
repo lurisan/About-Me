@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "lurisan"
+  },
+  "targets": {
+    "aboutme-454e7": {
+      "hosting": {
+        "main": [
+          "lurisan"
+        ]
+      }
+    }
+  }
+}
