@@ -1,4 +1,4 @@
 # About Me
 Branding Myself
 
-https://lurisan.web.app/home
+[Check it out](https://lurisan.web.app/home)
