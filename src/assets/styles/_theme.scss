@@ -9,6 +9,16 @@
   color: #f9aa33;
 }
 
+.white-theme{
+  background: linear-gradient(90deg, #585858, #acacac ,#ffffff);
+  color: black;
+}
+
+.dark-theme{
+  background: linear-gradient(90deg, #000000, #1f1e1e ,#1d1d1d);
+  color: white;
+}
+
 .picture-theme {
   background-image: url("src/assets/pics/home.jpg");
   background-color: black;
