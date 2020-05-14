@@ -62,7 +62,7 @@
 }
 
 .flicker {
-  animation: flickerAnimation 5s infinite;
+  animation: flickerAnimation 5s infinite, slideInFromTop 5s;
 }
 
 @keyframes flickerAnimation {
@@ -100,4 +100,128 @@
   56% {
     text-shadow: 0.25em 0 0 white, 0.5em 0 0 white;
   }
+}
+
+.bounce {
+  // transform: scale(1, 1.5);
+  animation: spinner 5s infinite;
+  // animation: bounce 0.5s cubic-bezier(0.5, 0.05, 1, 0.5);
+  // animation-direction: alternate;
+  // animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0), scale(1, 1.5) rotate(90deg);
+  }
+  to {
+    transform: translate3d(0, 50px, 0);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate3d(1, 1, 1, 0deg);
+  }
+  50% {
+    transform: rotate3d(1, 1, 1, 180deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+@mixin particle($total, $orb-size, $particle-size, $time, $base-hue) {
+  .wrap {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    animation: rotate $time infinite linear; // rotate orb
+  }
+
+  @keyframes rotate {
+    100% {
+      transform: rotateY(360deg) rotateX(360deg);
+    }
+  }
+
+  .c {
+    position: absolute;
+    width: $particle-size;
+    height: $particle-size;
+    border-radius: 50%;
+    opacity: 0;
+  }
+
+  @for $i from 1 through $total {
+    $z: (random(360) * 1deg); // random angle to rotateZ
+    $y: (random(360) * 1deg); // random to rotateX
+    $hue: ((40 / $total * $i) + $base-hue); // set hue
+
+    .c:nth-child(#{$i}) {
+      // grab the nth particle
+      animation: orbit#{$i} $time infinite;
+      animation-delay: ($i * 0.01s);
+      background-color: hsla($hue, 100%, 50%, 1);
+    }
+
+    @keyframes orbit#{$i} {
+      20% {
+        opacity: 1; // fade in
+      }
+      30% {
+        transform: rotateZ(-$z) rotateY($y) translateX($orb-size) rotateZ($z); // form orb
+      }
+      80% {
+        transform: rotateZ(-$z) rotateY($y) translateX($orb-size) rotateZ($z); // hold orb state 30-80
+        opacity: 1; // hold opacity 20-80
+      }
+      100% {
+        transform: rotateZ(-$z) rotateY($y) translateX(($orb-size * 3))
+          rotateZ($z); // translateX * 3
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  @include particle(
+    $total: 1000,
+    $orb-size: 250px,
+    $particle-size: 2px,
+    $time: 20s,
+    $base-hue: 30
+  );
+}
+
+@media only screen and (max-width: 767px) {
+  @include particle(
+    $total: 1000,
+    $orb-size: 150px,
+    $particle-size: 2px,
+    $time: 20s,
+    $base-hue: 180
+  );
 }
