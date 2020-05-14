@@ -9,6 +9,6 @@ export class ReaderService {
   constructor(private http: HttpClient) { }
 
   public getMarkdown() {
-    return this.http.get('assets/md/test.md', { responseType: 'text'});
+    return this.http.get('assets/md/data.md', { responseType: 'text'});
   }
 }
