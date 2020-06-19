@@ -1,3 +1,13 @@
+##### 20th June 2020
+Live Streaming "Robotics & AI : An Interdisciplinary Tale"
+- Alumni Tech Talk
+- Robonix
+- NSEC
+- Streaming now on youtube: [Robonix NSEC](https://www.youtube.com/watch?v=Pj8ugDiyyRo)
+- Like, Share, Subscribe to our channel
+<br />
+<br />
+
 ##### 19th June 2020
 Talk on 20th June "Robotics & AI : An Interdisciplinary Tale"
 - Alumni Tech Talk
