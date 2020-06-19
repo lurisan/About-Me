@@ -218,10 +218,10 @@
 
 @media only screen and (max-width: 767px) {
   @include particle(
-    $total: 1000,
+    $total: 300,
     $orb-size: 150px,
-    $particle-size: 2px,
-    $time: 20s,
+    $particle-size: 1px,
+    $time: 40s,
     $base-hue: 180
   );
 }
