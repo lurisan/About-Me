@@ -1,5 +1,15 @@
+##### 19th June 2020
+Talk on 20th June "Robotics & AI : An Interdisciplinary Tale"
+- Alumni Tech Talk
+- Robonix
+- NSEC
+- Exclusive streaming on youtube: [Robonix NSEC](https://www.youtube.com/watch?v=Pj8ugDiyyRo)
+- Like, Share, Subscribe to our channel
+<br />
+<br />
+
 ##### 15th May 2020
-Something should be in the background ;)
+Something should be in the background
 - Background animation
 - Bounce, Orb Ball, Spinner and Glow animations
 - Different Orb Ball for mobile and desktop
@@ -17,7 +27,7 @@ Too plain website
 
 
 ##### 10th May 2020
-Ah, adding texts is a lot of effort :(
+Ah, adding texts is a lot of effort
 - Markdown integration
 <br />
 <br />

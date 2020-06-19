@@ -84,6 +84,11 @@
   display: none;
 }
 
+.auto-scroll {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 @media only screen and (max-width: 767px) {
   .mobile {
     display: inline;
