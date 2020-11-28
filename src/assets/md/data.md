@@ -1,3 +1,14 @@
+##### 3rd November 2020
+Getting hands dirty on React and Hadoop
+- React based simple projects
+- Hadoop
+- Hive
+- Cassandra
+- PIG
+- Sqoop
+<br />
+<br />
+
 ##### 20th June 2020
 Live Streaming "Robotics & AI : An Interdisciplinary Tale"
 - Alumni Tech Talk
