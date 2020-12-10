@@ -1,3 +1,14 @@
+##### 10th December 2020
+Deployed a simple web app to calculate my monthly totals, feel free to use
+- Strict format required or else error is thrown without any highlight
+- One month calculation at a time
+- User Profile and Online data maintanance facility in pipeline
+- Alternative type web-app **MAYBE** made in Django too
+- Mightbe integrated to Expense App (Not yet deployed)
+- [**Check it out**](https://angcalc.web.app)
+<br />
+<br />
+
 ##### 3rd November 2020
 Getting hands dirty on React and Hadoop
 - React based simple projects
