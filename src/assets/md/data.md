@@ -1,3 +1,14 @@
+##### 29th January 2021
+Deployed a simple photo rich business website
+- Responsive Web Design
+- Gallery Effects
+- Social Connect
+- Google Maps
+- Open for building paid websites
+- [**A Q Leather**](https://aqleather.in)
+<br />
+<br />
+
 ##### 10th December 2020
 Deployed a simple web app to calculate my monthly totals, feel free to use
 - Strict format required or else error is thrown without any highlight
