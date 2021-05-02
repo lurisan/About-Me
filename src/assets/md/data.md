@@ -1,3 +1,16 @@
+##### 2nd May 2021
+Simple Producer Consumer based off Kafka using Docker and Springboot
+- Upcoming more useful exposed APIs
+- Data pull from csv or SQL DB for data warehousing
+- UI for consumption of APIs
+- Implementation of security
+- Use of Airflow, Mongo and Spark in planning
+- Implementation of ETL flow
+- Deployment for general user complete application
+- Open for colab
+<br />
+<br />
+
 ##### 29th January 2021
 Deployed a simple photo rich business website
 - Responsive Web Design
