@@ -8,9 +8,12 @@ import { ReaderService } from '../service/markdown/reader.service';
 })
 export class HomeComponent implements OnInit {
 
-  data = `##### 10th May 2020
-  Great Day for testing stuffs
-  `
+  data: string = 'There\'s a lot of silence here';
+  show: boolean = false;
+
+  showHide() {
+    this.show = !this.show;
+  }
 
   constructor(private markdown: ReaderService) { }
 
