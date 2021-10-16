@@ -1,16 +1,21 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 
-
-const routes: Routes = [{
-  path: '',
-  pathMatch: 'full',
-  redirectTo: 'home'
-}, {
-  path: 'home',
-  component: HomeComponent
-}];
+const routes: Routes = [
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'home'
+  },
+  {
+    path: 'blog',
+    component: HomeComponent
+  },
+  {
+    path:'home',
+    loadChildren: () => import('./portfolio/protfolio-v2.module').then(m => m.ProtfolioV2Module)
+  }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
