@@ -1,3 +1,21 @@
+##### 24th October 2021
+Smart Bedroom automation with actual use case and used in the room
+- Automated room device management
+- Integration with Google Assistant and Alexa
+- Custom 8 devices can be paired for free (only hardware cost)
+- [**Check it out**](https://github.com/lurisan/Smart-Bedroom)
+<br />
+<br />
+
+##### 17th October 2021
+V2 of portfolio website launched
+- New UI
+- Better Logo
+- Theming
+- Detailing
+<br />
+<br />
+
 ##### 2nd May 2021
 Simple Producer Consumer based off Kafka using Docker and Springboot
 - Upcoming more useful exposed APIs

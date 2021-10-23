@@ -1,26 +1,25 @@
-<div class="container-fluid">
+<div class="container-fluid" id="main">
     <div class="row">
-        <!-- <div class="header">
+        <div class="header">
             <div class="header-text">
-                <img src="assets/IN-white.svg" alt="Logo" height="100px" width="100px" class="sm-text-icon title-icon">
-                <span class="title"><a target="_self" href="assets/files/Md. Nasirul Haque (CV).pdf"
-                        download="resume_mnh.pdf">Md Nasirul Haque</a></span>
+                <img (click)="changeTheme()" src="{{imgSrc}}" alt="Logo" height="250px" width="250px" class="logo">
             </div>
-        </div> -->
+        </div>
         <!-- <div>
-        <span class="title" *ngFor="let x of ['.'].constructor(1)">
-            <span class="running"></span>
-        </span>
-    </div> -->
-    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="../home">Go Back</a>
+                <span class="title" *ngFor="let x of ['.'].constructor(10)">
+                    <span class="running"></span>
+                </span>
+            </div> -->
     </div>
     <div class="row router">
         <div class="wrap">
             <div *ngFor="let x of ['.'].constructor(1000)" class='c'></div>
         </div>
-        <div class="md">
-            <div markdown [data]="data"></div>
-        </div>
+        <a href="../home" style="color:inherit;" data-toggle="tooltip" title="Click anywhere to go back">
+            <div class="md">
+                <div markdown [data]="data"></div>
+            </div>
+        </a>
     </div>
     <div class="row">
         <div class="footer">
