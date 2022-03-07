@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-const IN_DYNAMIC = ('./assets/IN-dynamic.svg') as string;
 
 @Component({
   selector: 'app-home-v2',
