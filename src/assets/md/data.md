@@ -1,3 +1,21 @@
+##### 7th March 2022
+Smart Bedroom automation in use, working perfectly as expected
+- Automated room device management
+- Integration with Google Assistant and Alexa
+- Custom 8 devices can be paired for free (only hardware cost)
+- [**Tinxy**](https://tinxy.in/) can be used with already available switch boxes
+- Next in pipeline high spec desktop setup fingers crossed
+<br />
+<br />
+
+##### 31st January 2022
+Peregrine App Launched
+- Full stack clone of twitter
+- Angular 13, Servlets, Microservices, Azure, Docker, Kafka, Mongo DB, Jasmine, JUnit
+- Co-creater [Sohrab Azam](https://www.linkedin.com/in/sohrab-azam-816b7abb/)
+<br />
+<br />
+
 ##### 24th October 2021
 Smart Bedroom automation with actual use case and used in the room
 - Automated room device management
