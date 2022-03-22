@@ -10,6 +10,9 @@ import { ProtfolioV2RoutingModule } from './protfolio-v2-routing.module';
   imports: [
     CommonModule,
     ProtfolioV2RoutingModule
+  ],
+  exports: [
+    HomeV2Component
   ]
 })
 export class ProtfolioV2Module { }

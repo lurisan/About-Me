@@ -5,8 +5,9 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   {
     path: '',
-    pathMatch: 'full',
-    redirectTo: 'home'
+    // pathMatch: 'full',
+    loadChildren: () => import('./v3/v3.module').then(m => m.V3Module)
+    // redirectTo: 'home'
   },
   {
     path: 'blog',
