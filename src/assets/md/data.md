@@ -1,3 +1,14 @@
+##### 5th April 2022
+Getting a chance to speak amoung eminent personalities
+- GDG meet 16th April 2022, 11:00 AM - 2:00 PM (IST)
+- Topic: Cloud and Robotics
+- Speakers at the event: Jyoti Mishra, Me, Abhishek Nandy
+- I am speaking on "Clusters on a Mesh Network"
+- [April Meet](https://gdg.community.dev/events/details/google-gdg-cloud-kolkata-presents-april-meet-cloud-and-robotics/) Tickets selling fast...
+- [Nasscom ](https://www.google.com/maps/dir//7th%20Floor%2C%20Monibhandar%20Building%2C%20Webel%20Bhavan%2C%20Sector%205%2C%20Salt%20Lake%20Kolkata)
+<br />
+<br />
+
 ##### 7th March 2022
 Smart Bedroom automation in use, working perfectly as expected
 - Automated room device management
