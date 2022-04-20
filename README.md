@@ -33,6 +33,7 @@ Working as a fulltime employee in **Tata Consultancy Service Pvt Ltd**
 > * Hybrid App Development
 
 ## Projects
+> * Smart Bedroom lighting system based on NodeMCU and RGB strip lighting, [click here to know more](https://github.com/lurisan/Smart-Bedroom)
 > * A Novel Gene Selection Technique Using Wrapper Approach on Microarray Gene Expression Data
 > * Robotics (Hobbyistic and Competitive) 
 > * IOT (Smart Home Automation System based on Arduino) 
