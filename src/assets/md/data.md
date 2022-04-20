@@ -1,3 +1,22 @@
+##### 20th April 2022
+LFR based swarm cooking up, new project in place for next development and building
+- 3 LFRs (line following robots) which have the ability to connect to each other for understanding the traversal and path solving.
+- ESP32 and ESP8266 based robots.
+- Custom track made for testing out the same.
+- Implementing Cluster computing and Mesh Networking protocols for the development of the same.
+- Github link for the same soon will be available for individuals to take up and enhance it more.
+<br />
+<br />
+
+##### 17th April 2022
+GDG event was a great success, got an opportunity to intrigue the minds of young developers and future engineers
+- Introduction : Intro to GCP and setting up basics by [Jyoti Mishra](https://www.linkedin.com/in/jyotim29/)
+- Project Showcase : CNN and Transfer Learning based project [Randrita Sarkar](https://www.linkedin.com/in/randrita-sarkar-8690591a1/)
+- Intel : OpenAPI from Intel and its overview by [Abhishek Nandy](https://www.linkedin.com/in/abhishek-nandy/)
+- Robotics : Meshnet and Clusters by Me
+<br />
+<br />
+
 ##### 12th April 2022
 As GDG event is nearing the date, hope everyone has rsvp-ed for the event and got their tickets booked
 - As the date nears so does the excitement.
