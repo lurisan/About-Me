@@ -1,3 +1,15 @@
+##### 18th August 2022
+Excited to speak for Google Cloud Community Day 2022
+- [Cloud Community Day 2022](https://gdgcloud.kolkata.dev/ccd2022/#/ccd2022#speaker_grid)
+- [Grab Your Tickets](https://gdgcloud.kolkata.dev/ccd2022/)
+- Topic : Scaling Websockets for IoT Devices using GCP
+- Date : 28th August 2022
+- Venue : [Taal Kutir Convention Centre](https://goo.gl/maps/bCKHEMoCpC4gajuJ9)
+- Co-Speaker : **Pratik Gupta** [Linkedin](https://www.linkedin.com/in/pratik-gupta-10597a152/) [Messenger](https://m.facebook.com/people/Pratik-Gupta/100004042342157/)
+- Github link and Slides link for the same soon will be available for individuals for reference and further reading.
+<br />
+<br />
+
 ##### 20th April 2022
 LFR based swarm cooking up, new project in place for next development and building
 - 3 LFRs (line following robots) which have the ability to connect to each other for understanding the traversal and path solving.
