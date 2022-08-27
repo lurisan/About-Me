@@ -1,9 +1,9 @@
-##### 18th August 2022
+##### 27th August 2022
 Google Cloud Community Day 2022 Day-1
 - Google Cloud Community Day 2022 Begins
 - Date : 28th August 2022
-- Venue : (Government College of Engineering and Ceramic Technology)[https://maps.app.goo.gl/tcHS5grEppHyjSoE8]
-- YouTube Live : (Click to View)[https://youtu.be/yGgUJ3Kdnq0]
+- Venue : [Government College of Engineering and Ceramic Technology](https://maps.app.goo.gl/tcHS5grEppHyjSoE8)
+- YouTube Live : [Click to View](https://youtu.be/UGeV37z7kjs)
 <br />
 <br />
 
