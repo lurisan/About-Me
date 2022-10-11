@@ -1,7 +1,16 @@
+##### 28th August 2022
+Google Cloud Community Day 2022 Day-2
+- Google Cloud Community Day 2022 Continues
+- Date : 28th August 2022
+- Venue : [Taal Kutir Convention Centre](https://goo.gl/maps/YNsVz5WaVH9pXyUF8)
+- YouTube Live : [Click to View](https://youtu.be/85_9_0rDYQs?t=5276)
+<br />
+<br />
+
 ##### 27th August 2022
 Google Cloud Community Day 2022 Day-1
 - Google Cloud Community Day 2022 Begins
-- Date : 28th August 2022
+- Date : 27th August 2022
 - Venue : [Government College of Engineering and Ceramic Technology](https://maps.app.goo.gl/tcHS5grEppHyjSoE8)
 - YouTube Live : [Click to View](https://youtu.be/UGeV37z7kjs)
 <br />
