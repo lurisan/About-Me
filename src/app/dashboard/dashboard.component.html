@@ -28,7 +28,7 @@
             <h3 class="card-title d-flex justify-content-center text-capitalize">{{item.noHover.title}}</h3>
             <p class="d-flex text-center justify-content-center description"> {{item.noHover.description}} </p>
           </div>
-          <div class="card-body card-hover" (click)="linkClicked(item.hover.linkType == 'link', item.hover.link)">
+          <div class="card-body card-hover" (click)="cardClicked(item.hover.linkType == 'link', item.hover.link)">
             <div class="d-flex justify-content-center svg-img">
               <aim-svg fillColor="white" *ngIf="item.hover.image === 'aim'"></aim-svg>
               <blog-svg fillColor="white" *ngIf="item.hover.image === 'blog'"></blog-svg>
@@ -63,7 +63,7 @@
             <h3 class="card-title d-flex justify-content-center text-capitalize">{{item.noHover.title}}</h3>
             <p class="d-flex text-center justify-content-center description"> {{item.noHover.description}} </p>
           </div>
-          <div class="card-body card-hover" (click)="linkClicked(item.hover.linkType == 'link', item.hover.link)">
+          <div class="card-body card-hover" (click)="cardClicked(item.hover.linkType == 'link', item.hover.link)">
             <div class="d-flex justify-content-center svg-img">
               <education-svg fillColor="white" *ngIf="item.hover.image === 'education'"></education-svg>
               <project-svg fillColor="white" *ngIf="item.hover.image === 'project'"></project-svg>
@@ -76,11 +76,29 @@
               <p class="card-text d-flex justify-content-center">Click to Follow </p>
             </ng-container>
             <ng-container *ngIf="item.hover.linkType == 'modal'">
-              <p class="card-text d-flex justify-content-center">View Details </p>
+              <p class="card-text d-flex justify-content-center" data-bs-toggle="modal"
+                data-bs-target="#dashboardModal">View Details </p>
             </ng-container>
           </div>
         </div>
       </div>
     </ng-container>
+  </div>
+</div>
+
+<div class="modal" id="dashboardModal" (click)="dismissModal()">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-capitalize" id="dashboardModalLabel">{{modalTitle}}</h5>
+        <button type="button" class="btn-close" (click)="dismissModal()"></button>
+      </div>
+      <div class="modal-body" [innerHTML]="modalBody">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="dismissModal()">Close</button>
+      </div>
+    </div>
   </div>
 </div>

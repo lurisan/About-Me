@@ -11,3 +11,9 @@ export interface Tile {
     description: string
   }
 }
+
+export interface ModalData {
+  link: string;
+  title: string,
+  body: string
+}

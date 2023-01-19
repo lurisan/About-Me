@@ -9,6 +9,7 @@ import { BlogComponent } from './blog/blog.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ResumeComponent } from './resume/resume.component';
 import { SvgModule } from './svg/svg.module';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SvgModule } from './svg/svg.module';
     AppComponent,
     BlogComponent,
     ResumeComponent,
-    DashboardComponent
+    DashboardComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

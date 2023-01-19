@@ -3,6 +3,21 @@
   height: 80vh;
 }
 
+.modal {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+}
+
+.btn-secondary {
+  background-color: black;
+  color: white;
+}
+
+.btn-close {
+  color: black;
+}
+
 .top {
   display: flex;
   flex-wrap: nowrap;
@@ -152,8 +167,8 @@
     margin-bottom: 5%;
   }
 
-  
-  .card-title{
+
+  .card-title {
     font-size: 20px;
   }
 
