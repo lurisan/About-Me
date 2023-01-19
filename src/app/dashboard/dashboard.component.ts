@@ -100,7 +100,8 @@ export class DashboardComponent {
       noHover: {
         image: 'work',
         title: 'Work Experience',
-        description: 'Been working for almost 4+ years now'
+        description: `Been working for ${((new Date().getMonth() - new Date("2018-7-23").getMonth() +
+          (12 * (new Date().getFullYear() - new Date("2018-7-23").getFullYear()))) / 12).toFixed(1)} years now`
       },
     },
     {
@@ -113,7 +114,7 @@ export class DashboardComponent {
       noHover: {
         image: 'achievement',
         title: 'achievements',
-        description: 'Somethings to show-off'
+        description: 'Somethings to show off'
       },
     },
   ];
