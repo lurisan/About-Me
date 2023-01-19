@@ -5,19 +5,27 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MarkdownModule } from 'ngx-markdown';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
+import { BlogComponent } from './blog/blog.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ResumeComponent } from './resume/resume.component';
+import { SvgModule } from './svg/svg.module';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    BlogComponent,
+    ResumeComponent,
+    DashboardComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    SvgModule,
     MarkdownModule.forRoot()
   ],
   providers: [],

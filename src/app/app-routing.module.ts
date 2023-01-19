@@ -1,22 +1,28 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { BlogComponent } from './blog/blog.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ResumeComponent } from './resume/resume.component';
 
 const routes: Routes = [
   {
     path: '',
-    // pathMatch: 'full',
-    loadChildren: () => import('./v3/v3.module').then(m => m.V3Module)
-    // redirectTo: 'home'
+    pathMatch: 'full',
+    redirectTo: 'dashboard'
+  },
+  {
+    path: 'dashboard',
+    component: DashboardComponent
   },
   {
     path: 'blog',
-    component: HomeComponent
+    component: BlogComponent
   },
   {
-    path:'home',
-    loadChildren: () => import('./portfolio/protfolio-v2.module').then(m => m.ProtfolioV2Module)
-  }];
+    path: 'online-resume',
+    component: ResumeComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
