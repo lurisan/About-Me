@@ -18,7 +18,7 @@
       <div class="col">
         <div class="card" style="width: 18rem;">
           <div class="card-body card-non-hover">
-            <div class=" d-flex justify-content-center">
+            <div class="d-flex justify-content-center svg-img">
               <aim-svg *ngIf="item.hover.image === 'aim'"></aim-svg>
               <blog-svg *ngIf="item.hover.image === 'blog'"></blog-svg>
               <vision-svg *ngIf="item.hover.image === 'vision'"></vision-svg>
@@ -26,10 +26,10 @@
             </div>
             <hr class="hr hr-card">
             <h3 class="card-title d-flex justify-content-center text-capitalize">{{item.noHover.title}}</h3>
-            <p class="d-flex text-center justify-content-center"> {{item.noHover.description}} </p>
+            <p class="d-flex text-center justify-content-center description"> {{item.noHover.description}} </p>
           </div>
           <div class="card-body card-hover" (click)="linkClicked(item.hover.linkType == 'link', item.hover.link)">
-            <div class=" d-flex justify-content-center">
+            <div class="d-flex justify-content-center svg-img">
               <aim-svg fillColor="white" *ngIf="item.hover.image === 'aim'"></aim-svg>
               <blog-svg fillColor="white" *ngIf="item.hover.image === 'blog'"></blog-svg>
               <vision-svg fillColor="white" *ngIf="item.hover.image === 'vision'"></vision-svg>
@@ -53,7 +53,7 @@
       <div class="col">
         <div class="card" style="width: 18rem;">
           <div class="card-body card-non-hover">
-            <div class=" d-flex justify-content-center">
+            <div class="d-flex justify-content-center svg-img">
               <education-svg fillColor="black" *ngIf="item.hover.image === 'education'"></education-svg>
               <project-svg fillColor="black" *ngIf="item.hover.image === 'project'"></project-svg>
               <work-svg fillColor="black" *ngIf="item.hover.image === 'work'"></work-svg>
@@ -61,10 +61,10 @@
             </div>
             <hr class="hr hr-card">
             <h3 class="card-title d-flex justify-content-center text-capitalize">{{item.noHover.title}}</h3>
-            <p class="d-flex text-center justify-content-center"> {{item.noHover.description}} </p>
+            <p class="d-flex text-center justify-content-center description"> {{item.noHover.description}} </p>
           </div>
           <div class="card-body card-hover" (click)="linkClicked(item.hover.linkType == 'link', item.hover.link)">
-            <div class=" d-flex justify-content-center">
+            <div class="d-flex justify-content-center svg-img">
               <education-svg fillColor="white" *ngIf="item.hover.image === 'education'"></education-svg>
               <project-svg fillColor="white" *ngIf="item.hover.image === 'project'"></project-svg>
               <work-svg fillColor="white" *ngIf="item.hover.image === 'work'"></work-svg>
