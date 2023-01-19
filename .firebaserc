@@ -5,7 +5,7 @@
   "targets": {
     "aboutme-454e7": {
       "hosting": {
-        "portfolio": [
+        "main": [
           "lurisan"
         ]
       }
