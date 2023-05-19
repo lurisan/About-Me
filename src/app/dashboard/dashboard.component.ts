@@ -53,7 +53,7 @@ export class DashboardComponent {
         image: 'blog',
         title: 'blog',
         linkType: 'link',
-        link: 'blog'
+        link: 'https://lurisan.in/blog'
       },
       noHover: {
         image: 'blog',
