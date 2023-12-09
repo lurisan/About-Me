@@ -7,7 +7,7 @@ const Landing = () => {
             Hi
           </p>
           <p className="text-red">
-            I am
+            I am a
           </p>
           <p className="text-red">
             <div id="flip">

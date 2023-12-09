@@ -4,15 +4,15 @@ const Work = () => {
       <div className="mr-10 lg:items-center lg:ml-80 lg:flex">
         <span className="text-4xl font-bold text-end lg:block lg:text-5xl">
           <p className="text-white-1">
-            Software Engineer
+            Platform Engineer (IT Analyst)
           </p>
           <p className="text-red mt-5">
             TCS
           </p>
           <div className="flex justify-end -mr-3">
-            <button className="border-2 rounded-full p-2 pl-3 pr-3 mt-10 bg-white-1 text-2xl hover:text-white-1 hover:bg-red">
+            {/* <button className="border-2 rounded-full p-2 pl-3 pr-3 mt-10 bg-white-1 text-2xl hover:text-white-1 hover:bg-red">
               Know More
-            </button>
+            </button> */}
           </div>
         </span>
       </div>

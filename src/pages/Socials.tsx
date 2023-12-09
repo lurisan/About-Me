@@ -1,3 +1,5 @@
+import React from "react";
+
 const Socials = () => {
   return (
     <div className="bg-black-1 flex flex-col lg:flex-row-reverse h-screen max-w-full p-4 mx-auto justify-center lg:justify-end" >
@@ -5,10 +7,12 @@ const Socials = () => {
         <div className="text-4xl font-bold text-end lg:block lg:text-5xl">
           <div>
             <p className="text-white-1">
-              Mail Me
+              Connect With Me
             </p>
-            <p className="text-red mt-5">
-              contact@lurisan.in
+            <p className="text-red mt-5">              
+            <React.Fragment>
+                <a href="mailto:contact@lurisan.in">Email</a>
+              </React.Fragment>
             </p>
           </div>
           <div className="mt-20">
@@ -16,7 +20,9 @@ const Socials = () => {
               Follow Me
             </p>
             <p className="text-red mt-5">
-              https://bio.lurisan.in
+              <React.Fragment>
+                <a href="http://bio.lurisan.in">Socials</a>
+              </React.Fragment>
             </p>
           </div>
           <div className="mt-20">
