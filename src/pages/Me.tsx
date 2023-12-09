@@ -4,7 +4,7 @@ const Me = () => {
       <div className="mr-10 lg:items-center lg:ml-80 lg:flex">
         <span className="text-4xl font-bold text-end lg:block lg:text-5xl">
           <p className="text-white-1">
-            BTW, I am
+            BTW, my name is
           </p>
           <p className="text-red mt-5">
             Md Nasirul Haque
