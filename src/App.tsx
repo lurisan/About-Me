@@ -2,14 +2,13 @@ import { useEffect, useRef, useState } from 'react';
 import './App.css';
 // import Router from './Router';
 import GoTop from './components/GoTop';
-import Work from './pages/Work';
-import Landing from './pages/Landing';
-import Education from './pages/Education';
-import Skillset from './pages/Skillset';
-import Organization from './pages/Organization';
 import Community from './pages/Community';
+import Education from './pages/Education';
+import Landing from './pages/Landing';
+import Organization from './pages/Organization';
+import Skillset from './pages/Skillset';
 import Socials from './pages/Socials';
-import Me from './pages/Me';
+import Work from './pages/Work';
 
 const App = () => {
   const [scrollPosition, setSrollPosition] = useState<number>(0);
@@ -48,7 +47,6 @@ const App = () => {
       <Community />
       <Organization />
       <Socials />
-      <Me />
     </div>
   );
 };
